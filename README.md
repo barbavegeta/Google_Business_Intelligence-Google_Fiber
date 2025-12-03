@@ -51,7 +51,6 @@ Google_Business_Intelligence---Google-Fiber/
 ## Creating the target table (BigQuery / SQL)
 The target table is built by vertically stacking the three market tables with `UNION ALL` (the schemas are already aligned):
 ```sql
--- Example: create a combined target table from the three market datasets
 CREATE TABLE `google_bi.fiber.g_fiber` AS
 SELECT
   date_created,
