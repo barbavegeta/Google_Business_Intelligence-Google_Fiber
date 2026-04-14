@@ -45,7 +45,7 @@ Google_Business_Intelligence---Google-Fiber/
 │   └── g_fiber.sql
 ├── tableau/
 │   └── Google_Fiber_Dashboard.twbx   # optional: packaged workbook
-├── ing/
+├── img/
 │   └── fiber.png
 └── README.md
 ```
